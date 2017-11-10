@@ -4,11 +4,13 @@
  * and open the template in the editor.
  */
 package Ventana1;
-
+import javax.swing.*;
+import java.awt.*;
 /**
  *
  * @author LAB04
  */
-public class ventana1 {
-    
+public class ventana1 
+{
+ 
 }
