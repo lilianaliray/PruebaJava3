@@ -21,6 +21,7 @@ public class  ventana1 extends JFrame
     JLabel label;
     JTextField text;
     JButton boton;
+    JButton boton2;
     JCheckBox ticket;
     JRadioButton elegir;
     
@@ -33,6 +34,7 @@ public class  ventana1 extends JFrame
        label = new JLabel();
        text = new JTextField(20);//20 es la cantidad de caracteres
        boton = new JButton();
+       boton2 = new JButton(); 
        ticket = new JCheckBox();
        elegir = new JRadioButton();
        
@@ -41,17 +43,19 @@ public class  ventana1 extends JFrame
        panel.add(label);
        panel.add(text);
        panel.add(boton);
+       panel.add(boton2);
        panel.add(ticket);
        panel.add(elegir);
        
        //Paso 7-propiedades de los objetos
        
        label.setText("Nombre");
-       boton.setText("Enviar");
-       panel.setBackground(Color.pink);//color de fondo del JPanel
+       boton.setText("Conectar");
+       boton.setText("Desconectar");
+       panel.setBackground(Color.MAGENTA);//color de fondo del JPanel
     }
    
-    
+    {
         
     }
     
