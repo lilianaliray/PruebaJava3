@@ -44,9 +44,20 @@ public class  ventana1 extends JFrame
        panel.add(ticket);
        panel.add(elegir);
        
+       //Paso 7-propiedades de los objetos
+       
+       label.setText("Nombre");
+       boton.setText("Enviar");
+       panel.setBackground(Color.pink);//color de fondo del JPanel
+    }
+   
+    
         
+    }
+    
+} 
         
-     }
-}
+     
+
 
       
