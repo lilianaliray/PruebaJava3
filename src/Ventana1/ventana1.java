@@ -35,11 +35,18 @@ public class  ventana1 extends JFrame
        boton = new JButton();
        ticket = new JCheckBox();
        elegir = new JRadioButton();
+       
+        // Paso 6- agregar los elementos al JFrame
+       this.add(panel);
+       panel.add(label);
+       panel.add(text);
+       panel.add(boton);
+       panel.add(ticket);
+       panel.add(elegir);
+       
         
         
-        
-        
-    }
+     }
 }
 
       
