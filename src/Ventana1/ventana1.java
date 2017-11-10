@@ -26,4 +26,20 @@ public class  ventana1 extends JFrame
     
     //Paso 4-definir el constructor
     public ventana1()
+    {
+        
+      //Paso 5- crear inicializa los objetos
+       panel  = new JPanel();// creo un objeto tipo JPanel
+       label = new JLabel();
+       text = new JTextField(20);//20 es la cantidad de caracteres
+       boton = new JButton();
+       ticket = new JCheckBox();
+       elegir = new JRadioButton();
+        
+        
+        
+        
+    }
 }
+
+      
