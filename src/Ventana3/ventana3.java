@@ -24,4 +24,9 @@ public class ventana3
     private static final String PASS = "";
     private static final String URL = "jdbc:mysql://localhost:3306/conexion";
     
+     //PASO 12 - COSTRUCTOR DE LA CLASE
+    public ventana3()
+    {
+        
+    }
 }
