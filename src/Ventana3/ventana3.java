@@ -27,6 +27,37 @@ public class ventana3
      //PASO 12 - COSTRUCTOR DE LA CLASE
     public ventana3()
     {
+        conex = null;//Inicializar la variable 
         
+        //Metodo para manejar excepciones
+        try
+             {
+            Class.forName(DRIVER);
+            conex = DriverManager.getConnection(URL, USER, PASS);
+            if (conex != null) 
+            {
+             System.out.println("Conexion Establecida");
+            }
+        }
+        catch(ClassNotFoundException | SQLException e)
+        {
+         System.out.println("Error en la Conexion");
+        }
+    } //PASO 13 - DEFINICION METODOS PARA CONECTAR Y DESCONECTAR
+    public Connection conectar()
+    {
+        return conex;//Retorna el objeto conex  
+    }
+    
+    public void desconectar()
+    {
+      conex=null;
+        if (conex==null) 
+        {
+          System.out.println("Conexion Finalizada");
+        }
     }
 }
+
+    
+
