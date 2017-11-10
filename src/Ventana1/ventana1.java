@@ -10,7 +10,7 @@ import java.awt.*;
  *nombre:liliana hevia valenzuela
  * fecha:10-11-17
  * clase:pruebajava3
- * responsabilidad:
+ * responsabilidad:se siguen los siguientes pasos:importa, hereda, declara, define, crea, inisializa los objetos, agrega elementos y propiedadesde los objetos
  * @author LAB04
  */
 // paso 2 aca se heredar

@@ -12,7 +12,7 @@ import javax.swing.JFrame;
  * nombre:liliana hevia valenzuela
  * fecha:10-11-17
  * clase:pruebajava3
- * responsabilidad:
+ * responsabilidad:se importa la clase con la ventana y se hace llamado a la clase JFrame
  *
  * @author LAB04
  */
