@@ -23,4 +23,7 @@ public class  ventana1 extends JFrame
     JButton boton;
     JCheckBox ticket;
     JRadioButton elegir;
+    
+    //Paso 4-definir el constructor
+    public ventana1()
 }
